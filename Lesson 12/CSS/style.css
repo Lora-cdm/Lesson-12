@@ -1,0 +1,47 @@
+body {
+    background-color: beige;
+}
+
+h1 {
+    color: cadetblue;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+
+p {
+    text-indent: 5px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#Overline {
+    text-decoration: overline;
+}
+
+#Line-through {
+    text-decoration: line-through;
+}
+
+#Underline {
+    text-decoration: underline;
+}
+
+img {
+    /* clip-path: polygon(50% 0%, 0% 100%, 100% 100%); */
+    width: 200px;
+    height: 200px;
+    filter: blur(5px);
+    transition: 3s ease-in-out;
+}
+
+img:hover {
+    filter: blur(0);
+}
+a {
+    text-decoration: none;
+    color: rgb(51, 110, 112);
+}
+
+a:hover {
+    color:brown;
+}
